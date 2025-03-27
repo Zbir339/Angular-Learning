@@ -8,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+  // dynamique data declaration
+  title = 'My First Angular App';
+
 }

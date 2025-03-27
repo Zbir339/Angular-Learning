@@ -14,4 +14,7 @@ export class HeaderComponent {
   // dynamique data using signals
   titre = signal<string>('Mon Premier Signal Angular')
 
+  showButtonClicked(){
+    console.log("This Button is being clicked")
+  }
 }

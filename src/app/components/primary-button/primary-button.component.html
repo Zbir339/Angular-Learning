@@ -1,4 +1,10 @@
 <!-- Adding an onclick button to show message -->
-<button (click)="handleButtonClick()" >
+<!-- First and Seconde Methode -->
+<!-- <button (click)="handleButtonClick()" >
+    {{label()}}
+</button> -->
+
+<!-- 3rd methode to shorten the code and the creation of a function for each methode -->
+<button (click)="btnClicked.emit()">
     {{label()}}
 </button>

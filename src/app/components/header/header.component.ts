@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -8,7 +8,9 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
-  // dynamique data declaration
+  // static data declaration
   title = 'My First Angular App';
+  // dynamique data using signals
+  titre = signal<string>('Mon Premier Signal Angular')
 
 }
